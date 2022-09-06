@@ -1,7 +1,7 @@
 # SMAUG
 ## _Ranking dos gastos dos Deputados_
 
-[![N|Solid](https://www.pngitem.com/pimgs/m/83-831537_transparent-smaug-png-smaug-hobbit-png-png-download.png)](https://www.pngitem.com/pimgs/m/83-831537_transparent-smaug-png-smaug-hobbit-png-png-download.png)
+<img src="data/assets/logo.png">
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
