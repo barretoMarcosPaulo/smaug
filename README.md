@@ -17,11 +17,9 @@ A Cota para o Exercício da Atividade Parlamentar, custeia as despesas do mandat
 - Busca de dados de um deputado específico;
 - Menu interativo.
 
-O Smaug tem como base o excelente projeto chamdo Serenata de Amor, https://serenata.ai/
+O Smaug tem como base o excelente projeto chamado Serenata de Amor, https://serenata.ai/
 
 ## Tecnologias
-
-Dillinger uses a number of open source projects to work properly:
 
 - Python3
 - Pandas
