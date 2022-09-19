@@ -1,19 +1,25 @@
+import csv
 import os
 
 from utils.menu import Menu
-from utils.pandas_interface import PandasInterface
+from utils.parliamentary_spending import ParliamentarySpending
+from utils.sort import SortValues
+
 
 BASEDIR = os.getcwd()
 DATASET = f"{BASEDIR}/data/relatorio_2021.csv"
 
-
+    
 def main():
-    pandas_interface = PandasInterface(filepath=DATASET, delimiter=";", state_uf="PI")
+    
+    report_parliamentary = ParliamentarySpending(DATASET, "PI")
+    report_parliamentary.load_data_dict()
+
     menu = Menu()
     menu.options = {
-        "1": pandas_interface.mount_report_sum_max_expenses,
-        "2": pandas_interface.show_dataset,
-        "3": pandas_interface.search_by_name,
+        "1": report_parliamentary.show_dataset_order_by_sum_expenses,
+        "2": report_parliamentary.show_all_data,
+        "3": report_parliamentary.get_by_cpf,
     }
     menu.show_options()
 
