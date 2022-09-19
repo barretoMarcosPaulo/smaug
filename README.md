@@ -22,7 +22,6 @@ O Smaug tem como base o excelente projeto chamado Serenata de Amor, https://sere
 ## Tecnologias
 
 - Python3
-- Pandas
 - Python Virtual Enviroment
 - Pytest
 - GIT
